@@ -1,0 +1,11 @@
+workspace:
+  id: ""
+
+localResources:
+  collections:
+    - ../postman_collection.json
+
+cloudResources:
+  collections:
+    ../postman/collections/Sistema de Enquetes - API: 6ac07322-8fca-4296-aaad-c5e78304939c
+    ../postman/collections/Sistema de Enquetes - API Copy: 06c4b196-16d3-4f44-8ff7-cbf3006e807f

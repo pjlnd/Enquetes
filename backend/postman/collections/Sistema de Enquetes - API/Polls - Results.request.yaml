@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{base_url}}/polls/1/results"
+method: GET
+order: 9000

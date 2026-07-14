@@ -1,0 +1,13 @@
+$kind: http-request
+url: "{{base_url}}/polls/1"
+method: PUT
+headers:
+  Content-Type: application/json
+  Authorization: Bearer {{token}}
+body:
+  type: text
+  content: |-
+    {
+      "title": "Titulo atualizado"
+    }
+order: 7000

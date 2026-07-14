@@ -1,0 +1,15 @@
+$kind: http-request
+url: "{{base_url}}/polls"
+method: POST
+headers:
+  Content-Type: application/json
+  Authorization: Bearer {{token}}
+body:
+  type: text
+  content: |-
+    {
+      "title": "Qual sua linguagem favorita?",
+      "description": "Enquete de teste",
+      "options": ["PHP", "JavaScript", "Python"]
+    }
+order: 5000

@@ -4,6 +4,15 @@ Aplicação web para criação de enquetes com votação e resultados em tempo
 real. Desafio técnico trainee/júnior: front e back separados, autenticação,
 CRUD de enquetes e atualização automática dos votos.
 
+## Aplicação em produção
+
+- **Frontend:** https://enquetes-woad.vercel.app
+- **Backend (API):** https://enquetes-dxre.onrender.com/api
+
+## Observação: 
+O backend está hospedado no plano gratuito do Render, que suspende a instância após um período de inatividade.
+Caso a primeira requisição demore entre 30 e 60 segundos para responder, trata-se da reinicialização automática do servidor, não de uma falha na aplicação.
+
 ## Estrutura
 
 enquetes/
